@@ -1,13 +1,13 @@
 /*  Font for entire page*/
 body{
     font-family: "adobe-clean", sans-serif;
+    margin: 0px;
 }
 /* Header of the page */
 #header{
     position:absolute;
     transform: transelate(-50%, -50%);
     top: 0%;
-    left: 0%;
     border-style:solid;
     border-color:grey;
     width: 100%;
@@ -51,8 +51,6 @@ body{
 }
 /* CONTENT TEXT AREA */
 #content{
-    height: 130px;
-    width: 800px;
     resize:none;
 }
 /* CLASS TEXT BOXES */
@@ -61,6 +59,7 @@ body{
     border-radius: 7px;
     border-width: 1px;
     display:block;
+    font-size:large
 }
 /* ADD BUTTON */
 #submit{
@@ -72,6 +71,15 @@ body{
     font-size: 25px;
     margin-top:15px;
     float:right;
+}
+/* CONTAINER FOR FLEXBOX*/
+#flexbox-container{
+    width: 1000px;
+    height: 460px;
+    transform: translate(-50%,-50%);
+    top:75%;
+    left:50%;
+    position:absolute;
 }
 /* MY TODOS */
 #flexbox-container h1{
