@@ -29,25 +29,23 @@ body{
     transform: transelate(-50%, -50%);
     left:90%
 }
-/* LABEL FOR TITLE */
-#titellabel{
+/* FORM */
+#addform{
+    width: 808px;
+    height: 400px;
+    transform: translate(-50%,-50%);
     position:absolute;
-    top: 15%;
-}
-/* LABEL FOR CONTENT */ 
-#contentlabel{
-    position:absolute;
-    top: 25%;
+    left:45%;
+    top:35%;
 }
 /* LABEL CLASS */
 .titles{
     font-weight:bolder;
-    left:30%;
+    display:block;
+    margin-top:15px;
 }
 /* TITLE INPUT */
 #title{
-    position:absolute;
-    top: 20%;
     height: 40px;
     width: 400px;
 }
@@ -55,16 +53,14 @@ body{
 #content{
     height: 130px;
     width: 800px;
-    position:absolute;
-    top: 30%;
     resize:none;
 }
 /* CLASS TEXT BOXES */
 .txtfield{
-    margin-top: -15px;
+    margin-top:15px;
     border-radius: 7px;
     border-width: 1px;
-    left:30%;
+    display:block;
 }
 /* ADD BUTTON */
 #submit{
@@ -72,19 +68,13 @@ body{
     width: 150px;
     background-color:#00a5a7;
     border-radius: 7px;
-    position:absolute;
-    transform: translate(-50%, -50%);
     color:white;
     font-size: 25px;
-    top: 48%;
-    left:68%;
+    margin-top:15px;
+    float:right;
 }
 /* MY TODOS */
 #flexbox-container h1{
     font-weight: 900;
     font-size: 20px;
-    transform: translate(-50%, -50%);
-    position:absolute;
-    top:55%;
-    left: 30%;
 }
