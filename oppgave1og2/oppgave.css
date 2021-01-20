@@ -25,27 +25,21 @@ body{
     transform: transelate(-50%, -50%);
     left:90%
 }
-#addform{
-    background-color:black;
+#titellabel{
     position:absolute;
-    transform: transelate(-50%, -50%);
-    top:20%;
-    left: 30%;
-}
-#tittellabel{
-    position:absolute;
-    top: 190px;
+    top: 25%;
 }
 #contentlabel{
     position:absolute;
-    top: 190px;
+    top: 35%;
 }
 .titles{
     font-weight:bolder;
+    left:30%;
 }
 #title{
     position:absolute;
-    top: 150px;
+    top: 30%;
     height: 40px;
     width: 400px;
 }
@@ -53,12 +47,13 @@ body{
     height: 130px;
     width: 800px;
     position:absolute;
-    top: 230px;
+    top: 40%;
 }
 .txtfield{
     margin-top: -15px;
     border-radius: 7px;
     border-width: 1px;
+    left:30%;
 }
 #submit{
     height: 50px;
@@ -69,7 +64,7 @@ body{
     transform: translate(-50%, -50%);
     color:white;
     font-size: 25px;
-    top: 400px;
-    left: 760px;
+    top: 58%;
+    left:68%;
 
 }
