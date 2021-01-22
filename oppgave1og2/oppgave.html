@@ -2,55 +2,59 @@
 <html>
     <head>
         <link rel="stylesheet" href="oppgave.css">
+        
         <title>UIN Oppgave 1 og 2</title>
     </head>
     <body>
-        <nav id="header">
-            <h1> <b>HIOF</b></h1>
-            <h2>User user</h2>
-        </nav>
+        <header>
+            <nav id="header">
+                <h1> <b>HIOF</b></h1>
+                <h2>User user</h2>
+            </nav>
+        </header>
         <main>
-            <form id= "addform">
+            <form id= "addform" onsubmit="return false">
                 <label id="titellabel" for="title" class="titles">Title</label>
                 <input id="title" class = "txtfield"></input>
                 <label id="contentlabel" for="content" class="titles">Content</label>
                 <textarea id="content" class="txtfield" rows="7" cols="87"></textarea>
-                <input id="submit"type="submit" value="Add"></input>
+                <button id="submit" onclick="add()">Add</button>
             </form>
             <h1 id="todo">My Todos</h1>
 
-            <section class="container">
+            <section class="container" id="con">
                 <article class="box">
                     <h3>Box one</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <input class="complete" type="submit" value="Complete"></input>
+                    <input class="complete" type="submit" value="Complete" onclick="complete(this)"></input>
                 </article>
                 <article class="box">
                     <h3>Box two</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <input class="complete" type="submit" value="Complete"></input>
+                    <input class="complete" type="submit" value="Complete" onclick="complete(this)"></input>
                 </article>
                 <article class="box">
                     <h3>Box three</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <input class="complete" type="submit" value="Complete"></input>
+                    <input class="complete" type="submit" value="Complete" onclick="complete(this)"></input>
                 </article> 
                 <article class="box">
                     <h3>Box four</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <input class="complete" type="submit" value="Complete"></input>
+                    <input class="complete" type="submit" value="Complete" onclick="complete(this)"></input>
                 </article>
                 <article class="box">
                     <h3>Box five</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <input class="complete" type="submit" value="Complete"></input>
+                    <input class="complete" type="submit" value="Complete" onclick="complete(this)" ></input>
                 </article>
                 <article class="box">
                     <h3>Box six</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <input class="complete" type="submit" value="Complete"></input>
+                    <input class="complete" type="submit" value="Complete" onclick="complete(this)"></input>
                 </article>
             </section>
         </main>
+        <script src="script.js"></script>
     </body>
 </html>

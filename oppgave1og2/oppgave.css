@@ -84,11 +84,11 @@ body{
 }
 /* CONTAINER FOR FLEXBOX*/
 .container{
-    width: 900px;
+    width: 800px;
     height: 410px;
     transform: translate(-50%,-50%);
     top:76%;
-    left:46.7%;
+    left:44%;
     position:absolute;
     display:flex;
     flex-flow: row wrap;
@@ -103,23 +103,26 @@ body{
 .box + .box{
     margin-left: 40px;
 }
-/* BOKS NR 4 */
-.container article:nth-child(4n){
+/* BOX first + 3 */
+.container article:nth-child(3n -2){
     margin-left: 0px;
 }
-/* HOVER BUTTON NR 4 */
-.container article:nth-child(4n) input:hover{
+/* HOVER BUTTON first + 3 */
+.container article:nth-child(3n -2) input:hover{
     background-color: #008486;
 }
-/* HOVER FØRSTE KNAPP */
-.container article:nth-child(1n) input:hover{
-    background-color: #008486;
-}
-/* KNAPPER */
+/* KNAPPER */ 
 .complete{
     float:right;
     border-radius:7px;
     color:white;
     background-color:#00a5a7;
     border-color:#00a5a7;
+}
+@media only screen and (max-width: 600px){
+    .box{
+        color: blue;
+        width: 620px;
+        max-width: 620px;
+    }
 }
