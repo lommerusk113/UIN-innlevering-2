@@ -1,0 +1,112 @@
+/*  Font for entire page*/
+* {
+    box-sizing: border-box;
+}
+body, html, h1, div, section, ul, li, header, main, p, button {
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+} 
+body{
+    font-family: "adobe-clean", sans-serif;
+}
+/* Header of the page */
+#header{
+    border-bottom-style:solid;
+    border-color:grey;
+    border-width:1px;
+    width:100%;
+}
+/* HIOF LOGO */
+#header h1 b{
+    font-weight:900;
+    font-size: 19px;
+    margin-left: 15%;
+    top: 2%;
+    position: absolute;
+}
+/*  User user  */
+#header h2{
+    left:80%;
+    position:relative;
+}
+.titles{
+    font-weight:bolder;
+    display:block;
+    margin-top:15px;
+}
+/* CLASS TEXT BOXES */
+.txtfield{
+    margin-top:15px;
+    border-radius: 7px;
+    border-width: 1px;
+    display:block;
+    font-size:large
+}
+#content{
+    width:  calc(47vw); 
+    height: calc(15vh);
+}
+/* ADD BUTTON */
+#submit{
+    background-color:#00a5a7;
+    border-radius: 7px;
+    color:white;
+    height: 45px;
+    width: 150px;
+    font-size: 25px;
+    margin:15px;
+    margin-right:80px;
+    float:right;
+}
+/* MY TODOS */
+#todo{
+    display:block;
+    margin-top:60px;
+    font-weight: 900;
+    font-size: 20px;
+}
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+/* CONTAINER FOR FLEXBOX*/
+.container{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* CLASS FOR BOKSER */
+.box {
+    max-width: 250px;
+    padding: 10px;
+}
+/* KNAPPER */ 
+.complete{
+    border-radius:7px;
+    color:white;
+    background-color:#00a5a7;
+    border-color:#00a5a7;
+    float:right;
+    margin-right: 50px;
+    margin-top:15px;
+}
+@media only screen and (max-width: 800px){
+    body{
+        margin-left:25px;
+    }
+    .box{
+        width: 100%;
+        max-width: 100%;
+    }
+    #content{
+        width:  calc(79vw); 
+        height: calc(15vh);
+    }
+    #header h2{
+        left:65%
+    }
+    
+
+}

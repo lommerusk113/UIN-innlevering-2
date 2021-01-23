@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="oppgave.css">
-        
+        <link rel="stylesheet" href="oppgaverettet.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>UIN Oppgave 1 og 2</title>
     </head>
     <body>
@@ -13,11 +13,11 @@
             </nav>
         </header>
         <main>
-            <form id= "addform" onsubmit="return false">
+            <form id="addform" onsubmit="return false">
                 <label id="titellabel" for="title" class="titles">Title</label>
-                <input id="title" class = "txtfield"></input>
+                <input id="title" class ="txtfield"></input>
                 <label id="contentlabel" for="content" class="titles">Content</label>
-                <textarea id="content" class="txtfield" rows="7" cols="87"></textarea>
+                <textarea id="content" class="txtfield"></textarea>
                 <button id="submit" onclick="add()">Add</button>
             </form>
             <h1 id="todo">My Todos</h1>

@@ -119,10 +119,8 @@ body{
     background-color:#00a5a7;
     border-color:#00a5a7;
 }
-@media only screen and (max-width: 600px){
-    .box{
-        color: blue;
-        width: 620px;
-        max-width: 620px;
+@media only screen and (max-width: 00px){
+    .container{
+        width: 220px;
     }
 }

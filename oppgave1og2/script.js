@@ -1,22 +1,22 @@
 function add(){
-    title = document.getElementById('title').value;
-    content = document.getElementById('content').value;
+    let title = document.getElementById('title').value;
+    let content = document.getElementById('content').value;
     if (title == "" || content == ""){
         return
     }
 
-    art = document.createElement("article");
+    let art = document.createElement("article");
     art.className = "box";
 
-    head = document.createElement("h3");
+    let head = document.createElement("h3");
     t = document.createTextNode(title)
     head.appendChild(t)
 
-    con = document.createElement("p");
+    let con = document.createElement("p");
     c = document.createTextNode(content)
     con.appendChild(c)
 
-    sub = document.createElement("input")
+    let sub = document.createElement("input")
     sub.className = "complete";
     sub.type = "submit"
     sub.value = "Complete";
