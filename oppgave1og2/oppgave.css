@@ -96,17 +96,18 @@ main {
     body{
         margin-left:25px;
     }
-    .box{
-        width: 100%;
-        max-width: 100%;
+    #header h1 b{
+        top: 3%;
+    }
+    #header h2{
+        left:65%
     }
     #content{
         width:  calc(79vw); 
         height: calc(15vh);
     }
-    #header h2{
-        left:65%
+    .box{
+        width: 100%;
+        max-width: 100%;
     }
-    
-
 }
